@@ -268,9 +268,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 **Aaron Leob**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- GitHub: [@lucifer14333](github.com/lucifer14333)
+- Email: sivasiva0150@gmail.com
+- LinkedIn: [ANMATH RAJ S](www.linkedin.com/in/anmath-raj-s-781255357/)
 
 ## 🌟 Support
 
