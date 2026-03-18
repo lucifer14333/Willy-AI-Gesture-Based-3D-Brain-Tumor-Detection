@@ -8,7 +8,87 @@
 
 > **A touchless, gesture-controlled 3D brain visualization system for medical education and tumor detection using AI and computer vision.**
 
-![Willy-AI Demo](assets/demo-banner.png)
+![Willy-AI Demo](<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE4EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB6C1;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C44569;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="circuitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded rectangle -->
+  <rect width="500" height="500" rx="30" fill="url(#bgGradient)"/>
+  
+  <!-- Circuit pattern (subtle background) -->
+  <g opacity="0.15">
+    <!-- Horizontal lines -->
+    <rect x="100" y="50" width="2" height="100" fill="#667eea"/>
+    <rect x="100" y="150" width="80" height="2" fill="#667eea"/>
+    <rect x="320" y="150" width="2" height="80" fill="#667eea"/>
+    <rect x="220" y="350" width="100" height="2" fill="#667eea"/>
+    
+    <!-- Circuit nodes -->
+    <circle cx="100" cy="50" r="4" fill="#667eea"/>
+    <circle cx="100" cy="150" r="4" fill="#667eea"/>
+    <circle cx="180" cy="150" r="4" fill="#667eea"/>
+    <circle cx="320" cy="150" r="4" fill="#667eea"/>
+    <circle cx="320" cy="230" r="4" fill="#667eea"/>
+  </g>
+  
+  <!-- Brain illustration (center) -->
+  <g transform="translate(250, 200)">
+    <!-- Left hemisphere -->
+    <ellipse cx="-45" cy="0" rx="45" ry="80" fill="url(#brainGradient)" transform="rotate(-10)"/>
+    
+    <!-- Brain folds (left) -->
+    <ellipse cx="-50" cy="-20" rx="15" ry="7" fill="rgba(255,255,255,0.2)"/>
+    <ellipse cx="-45" cy="0" rx="12" ry="6" fill="rgba(255,255,255,0.2)"/>
+    <ellipse cx="-55" cy="20" rx="17" ry="9" fill="rgba(255,255,255,0.2)"/>
+    
+    <!-- Right hemisphere -->
+    <ellipse cx="45" cy="0" rx="45" ry="80" fill="url(#brainGradient)" transform="rotate(10)"/>
+    
+    <!-- Brain folds (right) -->
+    <ellipse cx="50" cy="-20" rx="15" ry="7" fill="rgba(255,255,255,0.2)"/>
+    <ellipse cx="45" cy="0" rx="12" ry="6" fill="rgba(255,255,255,0.2)"/>
+    <ellipse cx="55" cy="20" rx="17" ry="9" fill="rgba(255,255,255,0.2)"/>
+    
+    <!-- Tumor marker (red dot) -->
+    <circle cx="20" cy="-30" r="8" fill="#FF0000" opacity="0.9"/>
+    <circle cx="20" cy="-30" r="12" fill="#FF0000" opacity="0.3"/>
+  </g>
+  
+  <!-- Hand gesture icon (left) -->
+  <text x="80" y="400" font-size="60" opacity="0.8">🤚</text>
+  
+  <!-- 3D cube icon (right) -->
+  <g transform="translate(380, 360)">
+    <rect x="0" y="0" width="50" height="50" fill="rgba(102, 126, 234, 0.6)" stroke="#667eea" stroke-width="2"/>
+    <polygon points="50,0 70,15 70,65 50,50" fill="rgba(102, 126, 234, 0.4)" stroke="#667eea" stroke-width="2"/>
+    <polygon points="0,0 20,15 70,15 50,0" fill="rgba(102, 126, 234, 0.8)" stroke="#667eea" stroke-width="2"/>
+  </g>
+  
+  <!-- Logo text -->
+  <text x="250" y="450" font-family="Arial, sans-serif" font-size="72" font-weight="900" fill="#2D2D2D" text-anchor="middle" letter-spacing="-2">WILLY-AI</text>
+  <text x="250" y="475" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#666666" text-anchor="middle" letter-spacing="3">BRAIN TUMOR DETECTION</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="3" fill="#667eea" opacity="0.5"/>
+  <circle cx="400" cy="100" r="3" fill="#667eea" opacity="0.5"/>
+  <circle cx="100" cy="300" r="3" fill="#FF6B9D" opacity="0.5"/>
+  <circle cx="400" cy="300" r="3" fill="#FF6B9D" opacity="0.5"/>
+</svg>)
 
 ## 🎯 Overview
 
