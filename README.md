@@ -57,11 +57,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Download Required Files
+### Download 3d Brain Model
 
-1. **3D Brain Model** (42 MB): [Download brain_model.glb](https://drive.google.com/your-link)
-2. **AI Model** (2.8 MB): [Download brain_tumor_model_lite.h5](https://drive.google.com/your-link)
-3. **Sample Dataset**: [Download brain_mri_dataset.zip](https://drive.google.com/your-link)
+1. **3D Brain Model** (42 MB): [Download brain_model.glb]([https://drive.google.com/your-link](https://sketchfab.com/3d-models/csd-1237-basal-forebrain-a1097821ac704e399db1bf842001d50d#download)
 
 Place files in the project root:
 ```
