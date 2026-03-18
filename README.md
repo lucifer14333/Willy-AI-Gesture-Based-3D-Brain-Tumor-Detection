@@ -9,7 +9,7 @@
 > **A touchless, gesture-controlled 3D brain visualization system for medical education and tumor detection using AI and computer vision.**
 
 
-![Willy-AI ](assets/1.png)
+<img src="assets/1.png" width="256" vertical-align="middle">
 
 ## 🎯 Overview
 
@@ -101,7 +101,7 @@ python brain_tumor.py
 5. Tumor visualized in 3D if detected
 
 ## 🏗️ Architecture
-![Willy-AI ](assets/2.png)
+<img src="assets/2.png" width="256" vertical-align="middle">
 ### System Pipeline
 
 ```
